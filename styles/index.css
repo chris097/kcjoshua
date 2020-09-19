@@ -126,6 +126,12 @@ body {
 	position: relative;
 }
 
+@media screen and (max-width: 380px){
+	.slideshow-container {
+		height: 100%;
+	}
+}
+
 .slideshow-container::before {
 	content: "";
 	position: absolute;
@@ -309,18 +315,18 @@ body {
 }
 
 .hospitality-section-wrapper .hospitality-section-contents button{
-	background-color: #99092d;
+	background-color: #28c7fa;
 	color: #fff;
 	width: 200px;
 	padding: 15px;
 	font-size: 20px;
 	margin-top: 50px;
-	border-radius: 5px;
+	border-radius: 2px;
 	border: none;
 	outline: none;
 }
 .hospitality-section-wrapper .hospitality-section-contents button:hover{
-	background-color: #5F6368;
+	background-color: #b4f1f1;
 	transition: all 1s ease-in-out;
 }
 
