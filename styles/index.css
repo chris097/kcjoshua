@@ -128,7 +128,7 @@ body {
 
 @media screen and (max-width: 380px){
 	.slideshow-container {
-		height: 100%;
+		height: 70vh !important;
 	}
 }
 
@@ -190,7 +190,6 @@ body {
 	object-fit: cover;
 	/* size: 100% contain; */
 }
-
 /* Hide the images by default */
 .mySlides:not(:first-of-type) {
 	display: none;
@@ -499,6 +498,9 @@ body {
 	width: 100%;
 	height: 400px;
 	padding-bottom: 20px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .our-team .our-team-content .team-member h1{
 	color: #3c4044;
