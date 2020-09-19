@@ -1,0 +1,120 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+#heading {
+   background: url('../images/facilities-banner.png');
+   height: 345px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: #f1efef;
+}
+
+#heading h1 {
+   font-size: 1.5rem;
+   margin-bottom: 1rem;
+}
+
+#heading h2 {
+   font-weight: normal;
+   font-size: 1.15rem;
+}
+
+.container {
+   width: 85%;
+   margin: auto;
+}
+
+.facilities,
+.flex {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 4rem 0;
+}
+
+.facilities h2,
+.flex h2 {
+   color: #8F503F;
+   margin-bottom: 1rem;
+   font-weight: 600;
+}
+
+.facilities p,
+.flex p {
+   margin-bottom: 0.5rem;
+   color: #8B8680;
+}
+
+.facilities .contentA,
+.flex .sectionA{
+   padding-left: 2rem;
+}
+
+.facilities .contentB,
+.flex .sectionB {
+   padding-right: 2rem;
+}
+
+
+@media(max-width: 1185px) {
+
+   .facilities .image,
+   .flex .image{
+      flex: 0.55;
+   }
+
+   .facilities .image img,
+   .flex .image img {
+      width: 100%;
+   }
+
+   .facilities .contentA, .facilities .contentB,
+   .flex .sectionA, .flex .sectionB {
+      flex: 0.45;
+   }
+
+}
+
+@media(max-width: 1140px) {
+
+   .facilities .image,
+   .flex .image {
+      flex: 0.6;
+   }
+
+   .facilities .contentA, .facilities .contentB,
+   .flex .sectionA, .flex .sectionB {
+      flex: 0.4;
+   }
+}
+
+@media(max-width: 1000px) {
+
+   .facilities,
+   .flex{
+      flex: 1;
+      flex-direction: column;
+   }
+   .facilities .image,
+   .flex .image {
+      order: -1;
+   }
+
+   .facilities .image img,
+   .flex .image img {
+      width: 100%;
+      margin: 0;
+   }
+
+   .facilities .contentA, .facilities .contentB,
+   .flex .sectionA, .flex .sectionB{
+      padding: 2rem 0;
+   }
+
+}
+
