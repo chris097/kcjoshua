@@ -145,7 +145,7 @@ body {
 	margin-top: 90px;
 }
 
-@media screen and (max-width: 370px){
+@media screen and (max-width: 380px){
 	.slideshow-container {
 		height: 80vh !important;
 	}
