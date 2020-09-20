@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -24,11 +23,19 @@ header {
   background: #261214;
   padding-top: 9px;
   z-index: 1000;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
 }
 
+
 header .navigation-wrapper {
-  max-width: 1400px;
+  width: 100%;
   margin: auto;
+  position: relative;
+  left: 0;
+  top: 0;
 }
 
 header .navigation-wrapper .desktop-nav {
@@ -157,7 +164,7 @@ header .navigation-wrapper .desktop-nav ul li:last-child {
 }
 
 footer {
-  background-color: rgba(38, 18, 20, 0.75);
+  background-color: #071e3d;
   color: white;
   padding: 74px 0 98px;
 }
